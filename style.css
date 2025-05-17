@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  direction: rtl;
+}
+
+.auth, .chat-container {
+  background: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 10px;
+  width: 90%;
+}
+
+#chat-box {
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fafafa;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+  }
